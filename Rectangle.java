@@ -27,6 +27,11 @@ public class Rectangle
         System.out.println(area);
     }
     
+    public void printPerimiter()
+    {
+        int per = (2 * width) + (2 * height);
+        System.out.println(per);
+    }
     
     /**
      * This is the toString method. It returns a String

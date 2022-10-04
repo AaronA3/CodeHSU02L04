@@ -12,7 +12,7 @@ public class RectangleTester
         Rectangle r1 = new Rectangle(10,2);
          //print just the area of the rectangle
          r1.printArea();
-         
+         r1.printPerimiter();
          // Rectangle is the class and also the type of this object.
          // Make a new rectangle called r2 with a width of 5 and height of 15, print it, then print just its area
          Rectangle r2 = new Rectangle(5,15);
